@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#out{
+    border: solid 1px;
+    height: 650px;
+    background-image: url(bg1.avif);
+    background-repeat: no-repeat;
+    background-size: 1400px 650px;
+}
+h1{
+    color: ghostwhite;
+    font-size: 80px;
+    margin-top: 130px;
+    margin-left: 10px;
+    font-style: italic;
+}
+#register,#login{
+    height: 40px;
+    width: 150px;
+    background-color: ghostwhite;
+}
+#register{
+    margin-left: 200px;
+}
+#register a,#login a{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+#register:hover{
+    background-color: cornsilk;
+}
+#login:hover{
+    background-color: cornsilk;
+}
